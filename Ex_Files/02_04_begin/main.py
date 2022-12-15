@@ -17,5 +17,6 @@ for name in reversed(NAMES):
 
 for i in range(5):
     print(i)
-
 # enumerate
+for i, Name in enumerate (NAMES):
+    print (i, Name)

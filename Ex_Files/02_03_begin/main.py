@@ -16,3 +16,12 @@ print(max(AGES))
 print(JOHN_PAUL)
 print(GEORGE_RINGO)
 print(REVERSE)
+names = ["John", "George", "Paul", "Randall"]
+Ages = [20, 21, 22, 23]
+
+John_george = names[:2]
+Paul_randall = names[2:]
+
+print (John_george)
+print (Paul_randall)
+print (sum(Ages))
